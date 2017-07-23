@@ -1,3 +1,7 @@
+Why this fork?
+======
+I wanted to use this library togetger with Nette Framework in my projects and I missed the support for Elasticsearch 5.x and and php library [Elastica 5.x](https://github.com/ruflin/Elastica)
+
 Kdyby/ElasticSearch
 ======
 
