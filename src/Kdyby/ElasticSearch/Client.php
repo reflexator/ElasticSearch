@@ -34,10 +34,11 @@ class Client extends Elastica\Client
 	 * @param string $method
 	 * @param array $data
 	 * @param array $query
+	 * @param string $contentType
 	 * @throws \Exception
 	 * @return Elastica\Response
 	 */
-	public function request($path, $method = Request::GET, $data = [], array $query = [])
+	public function request($path, $method = Request::GET, $data = [], array $query = [], , $contentType = Elastica\Request::DEFAULT_CONTENT_TYPE)
 	{
 		$begin = microtime(TRUE);
 
